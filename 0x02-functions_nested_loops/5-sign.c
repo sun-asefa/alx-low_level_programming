@@ -4,9 +4,10 @@
  * print_sign - the sign for numbers to be compared
  *
  * Return: Always 0
- * @n: the number 
+ * @n: the number
  */
 int print_sign(int n)
+
 {
 if (n > 0)
 {
