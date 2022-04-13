@@ -8,11 +8,12 @@
 
 int main(void)
 {
-char _putchar[] = "_putchar";
+char charName[] = "_putchar";
 int p;
+for (p = 0; p < 8; p++)
 {
--putchar(_putchar[p]);
+_putchar(charName[p]);
 }
-_putchar("\n");
+_putchar('\n');
 return (0);
 }
