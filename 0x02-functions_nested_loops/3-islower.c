@@ -7,8 +7,7 @@
   *
   *@c: to be compared
   */
-int _islower(int c);
-
+int _islower(int c)
 {
 if (c > 'a' && c < 'z')
 
