@@ -1,20 +1,20 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_alphabet - Entry point
  *
- * Return: Always 0.
+ * Return:
  */
-int main(void)
-{
-void print_alphabet(void);
-{
-char p;
 
-for (p = 'a'; p <= 'z' ; p++)
+void print_alphabet(void)
+{
+char alphabet;
 
-_putchar(p);
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+{
+_putchar(alphabet);
 }
+
 _putchar('\n');
-return (0);
+
 }
