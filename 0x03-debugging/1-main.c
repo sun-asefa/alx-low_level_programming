@@ -14,7 +14,7 @@ int main(void)
 	i = 0;
 
 	/**
-	  * don’t delete it!
+	  *don’t delete it!
 	  *
 	  */
 
