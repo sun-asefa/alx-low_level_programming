@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - check the code.
- * @c: printed character
+ * _isupper - prints upper or lower
+ * @c: character to be printed
  * Return: Always 0.
  */
 int _isupper(int c)
@@ -16,6 +16,5 @@ int _isupper(int c)
 	{
 		return (0);
 	}
-	else
 
 }
