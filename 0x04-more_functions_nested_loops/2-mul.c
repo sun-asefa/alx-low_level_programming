@@ -2,12 +2,14 @@
 #include <stdio.h>
 
 /**
- * main - check the code
- * mul - function to multiply
+ * mul -Return result of a*b
  * @a: int value
  * @b: int value
- * Return: Always 0.
+ * Return: result
  */
 
 int mul(int a, int b)
+{
 
+	return a * b;
+}
