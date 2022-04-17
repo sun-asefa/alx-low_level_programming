@@ -9,6 +9,7 @@
 void print_numbers(void)
 {
 	int a;
+
 	a = 0;
 
 	while (a < 10)
@@ -19,4 +20,3 @@ void print_numbers(void)
 
 	_putchar ('\n');
 }
-	
