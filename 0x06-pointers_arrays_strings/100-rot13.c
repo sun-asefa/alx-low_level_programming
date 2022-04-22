@@ -2,23 +2,27 @@
 
 /**
  *rot13 - function that encodes a string using rot13
- *@str: the string to rot13
+ *@s: the string to rot13
  *Return: the string 
  */
 
-char *rot13(char *str)
+char *rot13(char *s)
 {
-int i;
-char storeh[] = "NOPQRSTUVWXYZABCDEFGHIJKLM";
-char storel[] = "nopqrstuvwxyzabcdefghijklm";
+int i = 0, j = 0;
+char string_rot13[] = "NnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMm";
+char string_alpha[] = "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz";
 
-for (i = 0; str[i] != '\0'; i++)
+while (s[i] != '\0')
 {
-if ((str[i] > 64 && str[i] < 91) || (str[i] > 96 && str[i] < 123))
+do {
+if (s[i] == string_alpha[j])
 {
-str[i] = (str[i] - 65 > 25) ?
-storel[str[i] - 97] : storeh[str[i] - 65];
+s[i] = string_rot13[j];
+break;
 }
+j++;
+} while (string_alpha[j] != '\0');
+i++;
 }
-return (str);
+return (s);
 }
