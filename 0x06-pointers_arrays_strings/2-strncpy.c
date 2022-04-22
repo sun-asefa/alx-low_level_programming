@@ -17,7 +17,7 @@ while (n > j)
 {
 if (src[j] == '\0')
 {
-while (j < n)
+for ( ; j < n; j++)
 {
 dest[i] = '\0';
 i++;
