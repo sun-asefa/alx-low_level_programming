@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_strcat - function that concatenates two strings
+ *_strncat - function that concatenates two strings
  *@dest: destination
  *@src: source
  *@n: size of string
@@ -25,5 +25,4 @@ if (n > 0)
 dest[i] = '\0';
 }
 return (dest);
-
 }
