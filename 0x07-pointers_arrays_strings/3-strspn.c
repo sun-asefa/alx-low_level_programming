@@ -24,5 +24,7 @@ len++, b = a_len;
 }
 else if (b == a_len - 1)
 
-	return (len);
+	goto exit;
+
+exit: return (len);
 }
