@@ -2,7 +2,7 @@
 
 /**
  * _pow_recursion - function that returns the natural square root of a number
- * @x: integer value 
+ * @x: integer value
  * @y: Power value
  *
  * Return: On success 1 & the function should return -1 on error
