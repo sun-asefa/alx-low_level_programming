@@ -1,16 +1,13 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - check the code
- *
- * Return: Always 0
- * add: addition of int a, int b value
+ * add - function that adds a and b
+ * @a: int value 1
+ * @b: int value 2
+ * Return: result of a + b
  */
 
 int add(int a, int b)
 {
-	int a, b;
-
 	return (a + b);
 }
