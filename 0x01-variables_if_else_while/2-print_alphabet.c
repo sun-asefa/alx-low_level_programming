@@ -8,10 +8,10 @@
  */
 int main(void)
 {
-	int c;
+	int ch;
 
-	for (c = 0; c < 26; ++c)
-		putchar('a' + c);
+	for (ch = 'a'; ch < 'z'; ++ch)
+		putchar(ch);
 
 	putchar('\n');
 
