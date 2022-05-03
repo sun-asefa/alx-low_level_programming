@@ -2,12 +2,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * Create a array object - a function that creates an array of chars, 
+ * and initializes it with a specific char
+ * @size: size of a string 
+ * @c: given char value
+ * Return: size
+ */
+
 char *create_array(unsigned int size, char c)
 
 {
 unsigned int i;
 char *s;
-
 if (size <= 0)
 {
     return (0);
@@ -15,7 +22,7 @@ if (size <= 0)
 s = malloc(sizeof(char) * size);
 if (s == 0)
 {
-return (0);
+    return (0);
 }
 i = 0;
 
