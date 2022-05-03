@@ -10,12 +10,12 @@ char *s;
 
 if (size <= 0)
 {
-return (0);
+    return (0);
 }
 s = malloc(sizeof(char) * size);
 if (s == 0)
 {
-    return (0);
+return (0);
 }
 i = 0;
 
