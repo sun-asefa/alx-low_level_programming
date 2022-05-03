@@ -3,7 +3,8 @@
 #include <stdlib.h>
 
 /**
- * _strdup - a function that returns a pointer to a newly allocated space in memory
+ * _strdup - a function that returns
+ * a pointer to a newly allocated space in memory
  *
  * @str: data type value
  * Return: s
@@ -18,6 +19,8 @@ if (str == NULL)
 return (NULL);
 
 for (i = 0; str[i]; i++)
+;
+i++;
 s = malloc(sizeof(char) * i);
 
 if (s == NULL)
