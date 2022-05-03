@@ -1,14 +1,14 @@
 #include "main.h"
 
-#include <ctype.h>
 /**
  * _isupper - returns 1 for uppercase
  *@c: is the parameter
- *Return: positive int if it id uppercase
+ *Return: 1 if c is upper
  */
 int _isupper(int c)
+
 {
-if (c > 'A' && c < 'Z')
+if (c >= 'A' && c <= 'Z')
 
 return (1);
 
