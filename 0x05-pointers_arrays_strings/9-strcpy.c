@@ -12,10 +12,10 @@ int i, len;
 
 for (len = 0; src[len] != '\0'; len++)
 {
+}
 for (i = 0; i <= len ; i++)
 {
 dest[i] = src[i];
-}
 }
 	return (dest);
 }
