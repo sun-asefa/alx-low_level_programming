@@ -4,7 +4,7 @@
 
 /**
  * str_concat - a function that concatenates two strings
- * 
+ *
  * @s1: destination
  * @s2: sourse
  * Return: pointer
