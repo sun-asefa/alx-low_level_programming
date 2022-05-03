@@ -4,9 +4,9 @@
 
 /**
  * _strdup - a function that returns a pointer to a newly allocated space in memory
- * 
+ *
  * @str: data type value
- * Return: s 
+ * Return: s
  */
 
 char *_strdup(char *str)
