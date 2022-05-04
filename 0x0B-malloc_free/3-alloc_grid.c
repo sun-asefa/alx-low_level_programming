@@ -4,9 +4,9 @@
 
 /**
  * alloc_grid - a function that returns a pointer to a 2
- * dimensional array of integers 
- * width: width of the columen
- * height: height of the rows
+ * dimensional array of integers
+ * @width: width of the columen
+ * @height: height of the rows
  * Return: size of string
  */
 
