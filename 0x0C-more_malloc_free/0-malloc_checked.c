@@ -3,10 +3,10 @@
 #include <stdlib.h>
 
 /**
- * malloc_checked - does what malloc does and checks if null
- * @b: size to alloc for malloc
+ * malloc_checked - a function that allocates memory using malloc
+ * @b: size to allocate
  *
- * Return: void pointer to allocated mem
+ * Return: pointer
  */
 void *malloc_checked(unsigned int b)
 {
