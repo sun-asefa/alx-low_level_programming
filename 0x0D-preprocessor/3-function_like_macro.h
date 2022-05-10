@@ -1,4 +1,3 @@
-#ifndef _FUNCTION_LIKE_MACRO_
-#define _FUNCTION_LIKE_MACRO_
-#define ABS(i)  (((i) < 0) ? -(i) : (i))
+#ifndef ABS
+#define ABS(x)  (((x) < 0) ? -(x) : (x))
 #endif
