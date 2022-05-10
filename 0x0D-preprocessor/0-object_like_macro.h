@@ -1,4 +1,3 @@
-#ifndef FILE_SIZE
-#define FILE_SIZE
+#ifndef SIZE
 #define SIZE 1024
 #endif
