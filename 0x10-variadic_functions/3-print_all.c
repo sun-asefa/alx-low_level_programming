@@ -1,4 +1,5 @@
 #include "variadic_functions.h"
+#include <stdio.h>
 
 /**
  * print_c - prints char
@@ -64,7 +65,6 @@ void print_all(const char * const format, ...)
 	char *separator;
 	int i, j;
 
-	/*Declaring struct*/
 	format_type fm[] = {
 		{"c", print_c},
 		{"i", print_i},
@@ -73,28 +73,26 @@ void print_all(const char * const format, ...)
 		{NULL, NULL}
 	};
 
-	/* initialize valist for num number of arguments */
 	va_start(list, format);
 
 	separator = "";
 
-	/*Start WHILE*/
 	i = 0;
 	while (format != NULL && format[i] != '\0')
 	{
-		j = 0; /*Reset variable j*/
-		while (j < 4) /*WHILE for data type*/
+		j = 0;
+		while (j < 4)
 		{
-			if (format[i] == *(fm[j]).fm) /*Search match*/
+			if (format[i] == *(fm[j]).fm)
 			{
-				fm[j].p(list, separator);/*Assign values*/
+				fm[j].p(list, separator);
 				separator = ", ";
 
 			}
 			j++;
 		}
 		i++;
-	} /*End WHILE*/
-	printf("\n");/*New line*/
-	va_end(list); /* clean memory reserved for valist */
+	}
+	printf("\n");
+	va_end(list);
 }
